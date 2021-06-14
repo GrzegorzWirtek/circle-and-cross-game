@@ -52,7 +52,7 @@ h3 {
   background-color: #767676;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 549px) {
   .game {
     width: 600px;
   }
@@ -77,7 +77,7 @@ h3 {
   height: 60vw;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 549px) {
   .game__board {
     -ms-flex-preferred-size: 240px;
         flex-basis: 240px;
@@ -132,7 +132,7 @@ h3 {
   height: 200px;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 549px) {
   .game__info {
     -ms-flex-preferred-size: 30%;
         flex-basis: 30%;
@@ -176,7 +176,7 @@ h3 {
   text-align: center;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 549px) {
   .game__results-text {
     width: auto;
   }

@@ -50,7 +50,7 @@ $button-color: rgb(179, 116, 0);
     border: $border;
     background-color: rgb(118, 118, 118);
 
-    @media (min-width: 639px) {
+    @media (min-width: 549px) {
         width: $board-width;
     }
 }
@@ -68,7 +68,7 @@ $button-color: rgb(179, 116, 0);
     flex-basis: 60vw;
     height: 60vw;
 
-    @media (min-width: 639px) {
+    @media (min-width: 549px) {
         flex-basis: $board-width * 0.4;
         height: $board-width * 0.4;
     }
@@ -111,7 +111,7 @@ $button-color: rgb(179, 116, 0);
     margin-top: 30px;
     height: 200px;
 
-    @media (min-width: 639px) {
+    @media (min-width: 549px) {
         flex-basis: 30%;
         margin-top: auto;
     }
@@ -142,7 +142,7 @@ $button-color: rgb(179, 116, 0);
     width: 100%;
     text-align: center;
 
-    @media (min-width: 639px) {
+    @media (min-width: 549px) {
         width: auto;
     }
 }
