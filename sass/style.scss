@@ -46,9 +46,13 @@ $button-color: rgb(179, 116, 0);
     align-items: center;
     margin: 20px auto;
     padding: 20px;
-    width: $board-width;
+    width: 100%;
     border: $border;
     background-color: rgb(118, 118, 118);
+
+    @media (min-width: 639px) {
+        width: $board-width;
+    }
 }
 
 .game__header {
@@ -61,8 +65,13 @@ $button-color: rgb(179, 116, 0);
 .game__board {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: $board-width * 0.4;
-    height: $board-width * 0.4;
+    flex-basis: 60vw;
+    height: 60vw;
+
+    @media (min-width: 639px) {
+        flex-basis: $board-width * 0.4;
+        height: $board-width * 0.4;
+    }
 }
 
 .game__item {
@@ -98,8 +107,14 @@ $button-color: rgb(179, 116, 0);
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 30%;
+    flex-basis: 100%;
+    margin-top: 30px;
     height: 200px;
+
+    @media (min-width: 639px) {
+        flex-basis: 30%;
+        margin-top: auto;
+    }
 }
 
 .game__move {
@@ -124,6 +139,12 @@ $button-color: rgb(179, 116, 0);
 
 .game__results-text {
     font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: 639px) {
+        width: auto;
+    }
 }
 
 .game__play-again {
