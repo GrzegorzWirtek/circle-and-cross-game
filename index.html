@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="game">
+        <h1 class="game__header">Cross and Circle Game</h1>
+        <article class="game__board">
+            <div class="game__item game__item--hover border-b-r"></div>
+            <div class="game__item game__item--hover border-b-r"></div>
+            <div class="game__item game__item--hover border-b"></div>
+            <div class="game__item game__item--hover border-b-r"></div>
+            <div class="game__item game__item--hover border-b-r"></div>
+            <div class="game__item game__item--hover border-b"></div>
+            <div class="game__item game__item--hover border-r"></div>
+            <div class="game__item game__item--hover border-r"></div>
+            <div class="game__item game__item--hover"></div>
+        </article>
+        <article class="game__info">
+            <div class="game__move">
+                <p class="game__move-text">Move</p>
+                <div class="game__move-image"></div>
+            </div>
+            <p class="game__results-text"></p>
+            <button class="game__play-again hidden">Play again</button>
+        </article>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

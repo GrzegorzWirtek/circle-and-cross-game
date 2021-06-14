@@ -1,0 +1,143 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(79, 79, 79);
+    user-select: none;
+}
+
+a,
+p,
+div,
+button,
+h1,
+h2,
+h3 {
+    font-size: 1rem;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+}
+
+$border: 2px solid black;
+$board-width: 600px;
+$button-color: rgb(179, 116, 0);
+
+@mixin image-position {
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: $board-width;
+    border: $border;
+    background-color: rgb(118, 118, 118);
+}
+
+.game__header {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.game__board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: $board-width * 0.4;
+    height: $board-width * 0.4;
+}
+
+.game__item {
+    @include image-position();
+    width: 33.33%;
+    height: 33.33%;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.02s;
+}
+
+.game__item--hover {
+    &:hover {
+        background-color: rgb(220, 218, 218);
+    }
+}
+
+.border-b-r {
+    border-right: $border;
+    border-bottom: $border;
+}
+
+.border-b {
+    border-bottom: $border;
+}
+
+.border-r {
+    border-right: $border;
+}
+
+.game__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 30%;
+    height: 200px;
+}
+
+.game__move {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.game__move-image {
+    @include image-position();
+    border: $border;
+    margin-left: 6px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    background-image: url('../assets/circle.jpg');
+}
+
+.game__results-text {
+    font-size: 1.4rem;
+}
+
+.game__play-again {
+    padding: 6px 10px;
+    border: 2px solid white;
+    background-color: $button-color;
+    transition: background-color 0.02s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($button-color, 8);
+    }
+}
+
+.hidden {
+    display: none;
+}
