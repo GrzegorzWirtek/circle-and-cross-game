@@ -1,7 +1,7 @@
 
 # Tic-tac-toe game app
 
-Simple game app created witch vanila, object-oriented JavaScript, HTML and CSS.
+Simple game app created witch vanila, object-oriented JavaScript, HTML and SCSS.
 
 ## General info
 
@@ -14,7 +14,6 @@ Visit page: **[Tic-tac-toe game](https://grzegorzwirtek.github.io/tic-tac-toe/)*
 Project is created with:
 
 - **HTML**
-- **CSS**
 - **SASS/SCSS**
 - **JavaScript**
 
