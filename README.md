@@ -1,16 +1,13 @@
 
+# Tic-tac-toe game app
 
-[Circle and cross game](https://grzegorzwirtek.github.io/circle-and-cross-game/)
-
-# Circle and cross game app
-
-The project was created as part of the JavaScript learning. 
+Simple game app created witch vanila, object-oriented JavaScript, HTML and CSS.
 
 ## General info
 
-The project was a challenge for me to construct logic for a sudoku game. The application was created in vanila, object-oriented Javascript. The game contains 12 boards of varying difficulty. Filling a column, row or square correctly activates the animation. Completing all fields takes the user to the next board.
+The project was created as part of the JavaScript learning. This is a simple tic-tac-toe game that displays the result.
 
-Visit page: **[Sudoku](https://grzegorzwirtek.github.io/sudoku/)**
+Visit page: **[Tic-tac-toe game](https://grzegorzwirtek.github.io/tic-tac-toe/)**
 
 ## Technologies
 
@@ -23,6 +20,6 @@ Project is created with:
 
 ## Setup
 
-The page is deployed to gh-pages: **[Sudoku](https://grzegorzwirtek.github.io/sudoku/)**
+The page is deployed to gh-pages: **[Tic-tac-toe game](https://grzegorzwirtek.github.io/tic-tac-toe/)**
 
 To run the project locally, use the Web Server.
