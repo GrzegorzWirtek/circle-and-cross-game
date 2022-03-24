@@ -14,7 +14,7 @@ Visit page: **[Tic-tac-toe game](https://grzegorzwirtek.github.io/tic-tac-toe/)*
 Project is created with:
 
 - **HTML**
-- **SASS/SCSS**
+- **SCSS**
 - **JavaScript**
 
 ## Setup
